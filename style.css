@@ -1,0 +1,26 @@
+body {
+    background-color: #5a5a5a;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 99.5%;
+    /* or 75px */
+
+    letter-spacing: 0.19em;
+
+}
+
+@media only screen and (max-width: 480px) {
+    [class*="col-"] {
+    width: 100%;
+}
+}
+
+@media  and (max-width: 480px) {
+    width: 100%;
+}
